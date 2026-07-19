@@ -26,6 +26,7 @@ ARG VERSION="unknown"
 ARG COMMIT_SHA="unknown"
 ARG BUILD_DATE="unknown"
 
+LABEL io.modelcontextprotocol.server.name="io.github.wyre-technology/salesforce-mcp"
 LABEL org.opencontainers.image.title="salesforce-mcp"
 LABEL org.opencontainers.image.description="WYRE Gateway Salesforce MCP sidecar — focused CRM tool surface (Accounts, Contacts, Opportunities, Leads, Cases)."
 LABEL org.opencontainers.image.source="https://github.com/wyre-technology/salesforce-mcp"
